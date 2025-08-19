@@ -1,12 +1,19 @@
-name: "Babble"
-description: "Upload your baby’s photo and watch the magic happen – a smile that will melt hearts in just one click."
-full_description_title: '<h3>Babbles - Make Your Baby Smile</h3>'
-key_features: '<ul style="font-size: smaller;"> <li><b>One-Click Smiles:</b> Upload a photo and let AI craft a perfect, natural-looking baby smile.</li> <li><b>Instant Photo Transformation:</b> Seamlessly transform any baby photo into a happy moment in seconds.</li> <li><b>Realistic AI Smiles:</b> Our advanced technology ensures smiles look authentic and heartwarming.</li> <li><b>Share the Joy:</b> Easily share your baby’s smiling photos with family and friends on social media.</li> <li><b>Safe & Private:</b> Your photos are processed securely with no data stored.</li> <li><b>Made for Parents:</b> Intuitive design makes it easy for anyone to use, no tech skills required!</li> </ul>'
-full_description_footer: '
-<h4>Ready to create unforgettable memories?</h4> <p><a id="download_button_1" href="https://apps.apple.com/us/app/babysmiles-ai/id123456789" target="_blank"><b>Download</b></a> the <a id="download_button_2" href="https://apps.apple.com/us/app/babysmiles-ai/id123456789" target="_blank"><b>Babble app</b></a> now and start turning ordinary moments into joyful smiles today!</p>
+name: "Dexi - Pokémon card value scanner"
+description: "Scan your Pokemon cards instantly and get up-to-date prices to track your collection’s value."
+full_description_title: '<h3>Pokémon Card Scanner - Check Card Prices & Value Instantly</h3>'
+key_features: '<ul style="font-size: smaller;">
+  <li><b>Instant Pokémon Card Value:</b> Scan any card to find out its real-time worth and market price.</li>
+  <li><b>Accurate Pokémon Card Prices:</b> Get updated pricing data powered by sources like TCGplayer Pokémon, Ebay or CardMarket for reliable valuation.</li>
+  <li><b>Track Most Valuable Pokémon Cards:</b> Discover rare cards, compare card Pokémon prices, and see which ones are climbing in value.</li>
+  <li><b>Easy Pokémon Card Valuation:</b> Know exactly how much your Pokémon trading cards cost with just one scan.</li>
+  <li><b>Collection Management:</b> Save scans, monitor your Pokémon TCG worth, and keep track of your trading card investments.</li>
+  <li><b>Market Insights:</b> Stay updated on Pokémon trading card prices and trends so you always know your Pokémon card worth.</li>
+</ul>'
+full_description_footer: '<h4>Ready to know the true value of your Pokemon cards?</h4>
+<p><a id="download_button_1" href="https://apps.apple.com/us/app/pokemon-card-scanner/id123456789" target="_blank"><b>Download</b></a> the <a id="download_button_2" href="https://apps.apple.com/us/app/pokemon-card-scanner/id123456789" target="_blank"><b>Pokémon Card Scanner app</b></a> now and start scanning, tracking, and discovering your Pokémon card worth today!</p>
 '
 #android: https://telegra.ph/Replace-this-link-07-23
-iOS: https://apps.apple.com/us/app/looksmax-ai-umaxx-face-rating/id6477295133?platform=iphone&ppid=cb1a6685-e2b3-45e3-a663-fc910c57664c
+iOS: https://apps.apple.com/us/app/dexi-tcg-card-value-scanner/id6749697621?platform=iphone&ppid=cb1a6685-e2b3-45e3-a663-fc910c57664c
 #web: https://telegra.ph/Replace-this-link-07-23
 screenshots:
   - 1.png
