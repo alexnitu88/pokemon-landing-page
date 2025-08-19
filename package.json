@@ -1,10 +1,10 @@
 {
-  "name": "looksmaxing-landing-page",
+  "name": "dexi-poke-landing-page",
   "version": "1.0.0",
-  "description": "The #1 Umax app. Just Snap & Transform your face with looks maxing.",
+  "description": "Dexi - the #1 Pokemon card valuation app. Ready to unlock the true Pokémon card value of your collection?",
   "main": "src/index.js",
-  "repository": "git@github.com:alexnitu88/looksmaxing-landing-page.git",
-  "author": "Prodigy AI <team@ailooksmaxing.app>",
+  "repository": "git@github.com:alexnitu88/pokemon-landing-page.git",
+  "author": "Prodigy AI",
   "license": "MIT",
   "scripts": {
     "start": "npm run-script clean:project && webpack --env config=dev --progress --profile --color && concurrently \"webpack-dev-server --env config=dev\" \"bundle exec jekyll serve\"",
