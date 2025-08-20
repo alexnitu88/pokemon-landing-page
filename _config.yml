@@ -20,7 +20,7 @@ theme_color: '#efeeff'
 #twitter_username: TODO
 #github_username:  TODO
 #author: Prodigy AI
-logo: ./assets/images/large-logo.png
+logo: ./assets/images/large-logo.webp
 #twitter:
 #  username: sandochee
 social:
@@ -62,5 +62,5 @@ exclude:
   - config
   - optimization-fix
   - optimization-fix-this-file-is-ignored.js
-  - icon.png
+  - icon.webp
   - docs
