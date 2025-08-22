@@ -14,7 +14,7 @@ From rare finds to everyday cards, you’ll always know the exact card Pokémon 
 Stop guessing what your Pokémon cards cost and start managing your collection with confidence. Whether you’re checking Pokémon TCG worth, calculating your Pokémon trading card worth, or simply exploring card Pokémon value, this app gives you the knowledge every collector needs.
 <br/><br/>
 Turn your deck into data, your hobby into an investment, and your cards into clarity. Your journey to mastering Pokémon card valuation starts here."
-baseurl: "/app" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://cardscanner.app"
 theme_color: '#efeeff'
 #twitter_username: TODO
