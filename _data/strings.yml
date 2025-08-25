@@ -6,14 +6,17 @@ app:
 footer:
   copyright: Dexi App 2025
   links:
-    - title: Facebook
-      url: https://www.facebook.com/people/Dexi-App/61556886538060/
-      target: _blank
+#    - title: Facebook
+#      url: https://www.facebook.com/people/Dexi-App/61556886538060/
+#      target: _blank
     - title: Tiktok
-      url: https://www.tiktok.com/@dexi.app
+      url: https://www.tiktok.com/@dexiapp
       target: _blank
     - title: Instagram
-      url: https://cardscanner.app
+      url: https://instagram.com/dexi.app
+      target: _blank
+    - title: YouTube
+      url: https://youtube.com/@DexiApp
       target: _blank
     - title: Privacy
       url: /privacy_policy.html

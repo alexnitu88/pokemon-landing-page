@@ -26,10 +26,9 @@ logo: ./assets/images/large-logo.webp
 social:
   name: Prodigy AI
   links:
-    # TODO facebook, insta, tiktok
-    - https://cardscanner.app
-    - https://cardscanner.app
-    - https://cardscanner.app
+    - https://www.tiktok.com/@dexiapp
+    - https://instagram.com/dexi.app
+    - https://youtube.com/@DexiApp
 
 languages: [ "en" ]
 ampdir: amp
