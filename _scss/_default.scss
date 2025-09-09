@@ -48,7 +48,6 @@ $secondary-font-family: 'Heebo', sans-serif;
   margin: auto;
 }
 
-
 // Global
 
 body {
@@ -80,17 +79,15 @@ a {
   }
 }
 
-
 // Shared
 
 .button {
-  display: flex;
+  display: inline-flex;
   background: linear-gradient(65deg, #DA552F, #ea8e39);
   font-family: $secondary-font-family;
   color: #fff;
-  display: inline-flex;
   font-size: $font-xxs;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
@@ -112,7 +109,7 @@ a {
   }
 
   &--link {
-    background: rgba(0, 0, 0, 0);
+    background: transparent;
     color: $primary-color;
     box-shadow: none;
 
@@ -134,7 +131,6 @@ a {
 h1, h2 {
   font-family: $secondary-font-family;
 }
-
 
 .container-desktop {
   @include container($container-padding);
@@ -241,6 +237,8 @@ h1, h2 {
     flex-direction: row;
     align-items: center;
     margin-left: -14px * 0.7;
+    flex-wrap: wrap; // allow badge to wrap under
+    gap: 0 12px;
 
     &--mobile {
       display: none;
@@ -248,16 +246,27 @@ h1, h2 {
 
     @media (max-width: 768px) {
       margin-left: 0;
-      margin-bottom: 64px;
+      margin-bottom: 16px; // space for badge
+      gap: 0 8px;
 
       &--mobile {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
+        align-items: flex-start;
       }
-
       &--desktop {
         display: none;
       }
+    }
+
+    // place the rating as a full-width row under the buttons
+    .rating-badge {
+      display: inline-flex;
+      flex-basis: 100%;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: .5rem;
+      order: 99; // after buttons
     }
   }
 
@@ -282,18 +291,12 @@ h1, h2 {
   }
 
   @media (max-width: 768px) {
-    &__button-play {
-      img {
-        width: 252px * 0.5;
-      }
+    &__button-play img {
+      width: 252px * 0.5;
     }
-
-    &__button-ios {
-      img {
-        width: 200px * 0.5;
-      }
+    &__button-ios img {
+      width: 200px * 0.5;
     }
-
     &__button-web {
       margin-left: 8px;
 
@@ -315,7 +318,6 @@ h1, h2 {
   }
 
   &__featured {
-
     &-content {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -333,8 +335,9 @@ h1, h2 {
       margin: auto;
     }
   }
-
 }
+
+// Footer
 
 .footer {
   padding: 16px 0;
@@ -371,8 +374,9 @@ h1, h2 {
       margin-right: 8px;
     }
   }
-
 }
+
+// Page + Darkmode
 
 .page {
   @include container($container-padding);
@@ -390,18 +394,19 @@ h1, h2 {
   background-repeat: no-repeat !important;
 }
 
-.rating-badge {
+.rating-badge,
+.rating-badge--mobile {
   display: flex;
   align-items: center;
-  justify-content: flex-start; // makes sure everything hugs the left
+  justify-content: flex-start;
   gap: .5rem;
-  margin-top: .5rem;
   font: 500 14px/1.2 system-ui, Segoe UI, Roboto, Arial, sans-serif;
+  margin-top: .5rem;
 
   .rating-stars {
-    font-size: 16px;
-    color: #ffd700;
+    font-size: 14px;
     letter-spacing: .15em;
+    color: #ffd700;
   }
 
   .rating-text {
