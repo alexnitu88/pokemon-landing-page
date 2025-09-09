@@ -389,3 +389,22 @@ h1, h2 {
   background-position-y: -10vh !important;
   background-repeat: no-repeat !important;
 }
+
+.rating-badge {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; // makes sure everything hugs the left
+  gap: .5rem;
+  margin-top: .5rem;
+  font: 500 14px/1.2 system-ui, Segoe UI, Roboto, Arial, sans-serif;
+
+  .rating-stars {
+    font-size: 16px;
+    color: #ffd700;
+    letter-spacing: .15em;
+  }
+
+  .rating-text {
+    opacity: .9;
+  }
+}

@@ -20,6 +20,11 @@ screenshots:
   - 2.webp
   - 3.webp
   - 4.webp
+
+rating:
+  value: 4.9
+  count: 3913
+
 #companies:
 #  - url: https://telegra.ph/Replace-this-link-07-23
 #    image: androidpolice.png
