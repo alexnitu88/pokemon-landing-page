@@ -394,6 +394,21 @@ h1, h2 {
   background-repeat: no-repeat !important;
 }
 
+.darkmode--activated {
+  body {
+    color: #eee; /* readable text */
+  }
+
+  .rating-badge,
+  .rating-badge--mobile {
+    color: #eee; /* review text */
+  }
+
+  .rating-badge .rating-stars {
+    color: #ffd700 !important; /* gold stars */
+  }
+}
+
 .rating-badge,
 .rating-badge--mobile {
   display: flex;
